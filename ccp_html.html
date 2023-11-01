@@ -342,6 +342,7 @@
         page-break-after: auto;
       }
       article {
+        -webkit-print-color-adjust: exact;
         page-break-after: always;
         transform: scale(2);
         transform-origin: top left;
@@ -901,7 +902,7 @@
           <div
             style="
               width: 547px;
-              left: 0px;
+              left: -24px;
               top: 32px;
               position: absolute;
               color: #414141;
@@ -913,63 +914,74 @@
               word-wrap: break-word;
             "
           >
-            Contrato social (e alterações)<br />RG/CNH do representante legal da
-            escola<br />Certidão de Casamento do representante legal da escola
-            (se aplicável)
+            <ul>
+              <li>Contrato social (e alterações)</li>
+              <li>RG/CNH do representante legal da escola</li>
+              <li>
+                Certidão de Casamento do representante legal da escola (se
+                aplicável)
+              </li>
+            </ul>
           </div>
         </div>
-        <div
-          style="
-            width: 547px;
-            left: 24px;
-            top: 569px;
-            position: absolute;
-            color: #414141;
-            font-size: 12px;
-            font-family: Roboto;
-            font-weight: 700;
-            line-height: 18px;
-            letter-spacing: 0.25px;
-            word-wrap: break-word;
-          "
-        >
-          Conta bancária da escola (com o mesmo CNPJ do contrato de crédito)
-        </div>
-        <div
-          style="
-            width: 273px;
-            left: 24px;
-            top: 471px;
-            position: absolute;
-            color: #414141;
-            font-size: 12px;
-            font-family: Roboto;
-            font-weight: 700;
-            line-height: 18px;
-            letter-spacing: 0.25px;
-            word-wrap: break-word;
-          "
-        >
-          Dados do representante legal da escola
-        </div>
-        <div
-          style="
-            width: 273px;
-            left: 40px;
-            top: 489px;
-            position: absolute;
-            color: #414141;
-            font-size: 12px;
-            font-family: Roboto;
-            font-weight: 400;
-            line-height: 18px;
-            letter-spacing: 0.25px;
-            word-wrap: break-word;
-          "
-        >
-          Nome Completo<br />CPF<br />Telefone celular<br />E-mail (assinar com
-          certificado digital ICP)
-        </div>
+        <ul>
+          <div
+            style="
+              width: 273px;
+              left: 40px;
+              top: 471px;
+              position: absolute;
+              color: #414141;
+              font-size: 12px;
+              font-family: Roboto;
+              font-weight: 700;
+              line-height: 18px;
+              letter-spacing: 0.25px;
+              word-wrap: break-word;
+            "
+          >
+            <li>Dados do representante legal da escola</li>
+          </div>
+          <div
+            style="
+              width: 390px;
+              left: 65px;
+              top: 492px;
+              position: absolute;
+              color: #414141;
+              font-size: 12px;
+              font-family: Roboto;
+              font-weight: 400;
+              line-height: 18px;
+              letter-spacing: 0.25px;
+              word-wrap: break-word;
+            "
+          >
+            <li>Nome Completo</li>
+            <li>CPF</li>
+            <li>Telefone celular</li>
+            <li>E-mail (assinar com certificado digital ICP)</li>
+          </div>
+          <div
+            style="
+              width: 547px;
+              left: 40px;
+              top: 569px;
+              position: absolute;
+              color: #414141;
+              font-size: 12px;
+              font-family: Roboto;
+              font-weight: 700;
+              line-height: 18px;
+              letter-spacing: 0.25px;
+              word-wrap: break-word;
+            "
+          >
+            <li>
+              Conta bancária da escola (com o mesmo CNPJ do contrato de crédito)
+            </li>
+          </div>
+        </ul>
         <div
           style="
             width: 595px;
@@ -989,7 +1001,7 @@
               background: #3d4ed7;
             "
           ></div>
-          <div style="width: 101px; left: 40px; top: 16px; position: absolute">
+          <div style="left: 40px; top: 16px; position: absolute">
             <span
               style="
                 color: white;
@@ -1123,7 +1135,7 @@
               1
             </div>
           </div>
-          <div style="height: 96px; position: relative">
+          <div style="height: 76px; position: relative">
             <div
               style="
                 width: 464.15px;
@@ -1376,7 +1388,7 @@
               background: #3d4ed7;
             "
           ></div>
-          <div style="width: 101px; left: 40px; top: 16px; position: absolute">
+          <div style="left: 40px; top: 16px; position: absolute">
             <span
               style="
                 color: white;
@@ -1547,7 +1559,7 @@
               background: #3d4ed7;
             "
           ></div>
-          <div style="width: 101px; left: 40px; top: 16px; position: absolute">
+          <div style="left: 40px; top: 16px; position: absolute">
             <span
               style="
                 color: white;
@@ -1752,7 +1764,7 @@
               >
             </div>
           </div>
-          <div style="height: 114px; position: relative">
+          <div style="height: 100px; position: relative">
             <div
               style="
                 width: 464.15px;
@@ -1781,43 +1793,81 @@
                   letter-spacing: 0.25px;
                   word-wrap: break-word;
                 "
-                >Para a escola:<br /></span
-              ><span
-                style="
-                  color: #414141;
-                  font-size: 12px;
-                  font-family: Roboto;
-                  font-weight: 400;
-                  line-height: 18px;
-                  letter-spacing: 0.25px;
-                  word-wrap: break-word;
-                "
-                >Divulgar e incentivar a comprovação pelos responsáveis
-                financeiros, utilizando os materiais de divulgação
-                disponibilizados pelo isaac<br />Educar os RFs a utilizarem o </span
-              ><span
-                style="
-                  color: #414141;
-                  font-size: 12px;
-                  font-family: Roboto;
-                  font-weight: 700;
-                  line-height: 18px;
-                  letter-spacing: 0.25px;
-                  word-wrap: break-word;
-                "
-                >meu isaac</span
-              ><span
-                style="
-                  color: #414141;
-                  font-size: 12px;
-                  font-family: Roboto;
-                  font-weight: 400;
-                  line-height: 18px;
-                  letter-spacing: 0.25px;
-                  word-wrap: break-word;
-                "
-                >, direcionando o RF ao meu isaac em qualquer atendimento</span
-              >
+                >Para a escola:<br
+              /></span>
+              <div style="top: 12px; position: absolute">
+                <ul
+                  style="
+                    padding-left: 21px;
+                    color: #414141;
+                    font-size: 12px;
+                    font-family: Roboto;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0.25px;
+                    word-wrap: break-word;
+                  "
+                >
+                  <li>
+                    <span
+                      style="
+                        color: #414141;
+                        font-size: 12px;
+                        font-family: Roboto;
+                        font-weight: 400;
+                        line-height: 18px;
+                        letter-spacing: 0.25px;
+                        word-wrap: break-word;
+                      "
+                    >
+                      Divulgar e incentivar a comprovação pelos responsáveis
+                      financeiros, utilizando os materiais de divulgação
+                      disponibilizados pelo isaac
+                    </span>
+                  </li>
+                  <li>
+                    <div>
+                      <span
+                        style="
+                          color: #414141;
+                          font-size: 12px;
+                          font-family: Roboto;
+                          font-weight: 400;
+                          line-height: 18px;
+                          letter-spacing: 0.25px;
+                          word-wrap: break-word;
+                        "
+                      >
+                        Educar os RFs a utilizarem o
+                      </span>
+                      <span
+                        style="
+                          color: #414141;
+                          font-size: 12px;
+                          font-family: Roboto;
+                          font-weight: 700;
+                          line-height: 18px;
+                          letter-spacing: 0.25px;
+                          word-wrap: break-word;
+                        "
+                        >meu isaac</span
+                      ><span
+                        style="
+                          color: #414141;
+                          font-size: 12px;
+                          font-family: Roboto;
+                          font-weight: 400;
+                          line-height: 18px;
+                          letter-spacing: 0.25px;
+                          word-wrap: break-word;
+                        "
+                        >, direcionando o RF ao meu isaac em qualquer
+                        atendimento</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div style="align-self: stretch">
@@ -1842,10 +1892,15 @@
                 letter-spacing: 0.25px;
                 word-wrap: break-word;
               "
-              >Ajudar a escola com a divulgação (kit de comunicação a ser
-              baixado aqui)<br />Comunicar os RFs incentivando a comprovação dos
-              dados</span
             >
+              <ul style="padding-left: 21px">
+                <li>
+                  Ajudar a escola com a divulgação (kit de comunicação a ser
+                  baixado aqui)
+                </li>
+                <li>Comunicar os RFs incentivando a comprovação dos dados</li>
+              </ul>
+            </span>
           </div>
         </div>
         <div
@@ -1853,6 +1908,7 @@
             height: 130px;
             padding: 16px;
             left: 24px;
+            right: 24px;
             top: 431px;
             position: absolute;
             background: #f6f6f6;
@@ -2049,8 +2105,8 @@
             "
             >diretamente pela OISA TECNOLOGIA E SERVIÇOS LTDA. (“ISAAC”) e não
             deve ser compartilhado com terceiros sem a prévia anuência por parte
-            do ISAAC. <br />O mecanismo de crédito apresentado na presente
-            proposta se dá por </span
+            do ISAAC. O mecanismo de crédito apresentado na presente proposta se
+            dá por </span
           ><span
             style="
               color: #414141;
@@ -2130,7 +2186,7 @@
               background: #3d4ed7;
             "
           ></div>
-          <div style="width: 101px; left: 40px; top: 16px; position: absolute">
+          <div style="left: 40px; top: 16px; position: absolute">
             <span
               style="
                 color: white;
